@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+.bread-top {
+  border-radius: 100px 100px 20px 20px;
+  height: 90px;
+  background: linear-gradient(#ffb737, #e88b00);
+}
+
+.bread-bottom {
+  height: 40px;
+  background: #e88b00;
+  border-radius: 15px;
+}
+.wrapper {
+  margin: 30px auto;
+  align-self: center;
+  height: 400px;
+  width: 380px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.wrapper > * {
+  border: 3px solid #1b0f01;
+  margin: 1px;
+  align-self: center;
+}
+
+.cheese {
+  height: 10px;
+  background-color: #fdde03;
+  border-radius: 10%;
+}
+
+.meat {
+  height: 20px;
+  background: #98503b;
+  border-radius: 5px;
+}
+
+.salad {
+  height: 15px;
+  background: #04aa5a;
+  border-radius: 10px;
+  border-left: 1px;
+  border-right: 1px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  margin: auto;
+  width: 60%;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(32, 77, 56);
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.itemSection {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin: 8px;
+}
+
+.itemName,
+.itemPrice {
+  width: 10%;
+}
+
+button {
+  padding: 6px 18px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
